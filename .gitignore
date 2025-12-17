@@ -1,0 +1,52 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+*.tfplan
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+.venv/
+ENV/
+env/
+
+
+# Secrets
+*.pem
+*.key
+.env
+.env.local
+secrets/
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+._*
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Testing
+response.json
+current_lambda.zip
+test.pdf
+
+# Backup
+*.bak
+*.backup
