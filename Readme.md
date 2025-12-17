@@ -111,17 +111,15 @@ The AI-Powered Resume Matcher is a production-ready serverless application that 
 
 ## ☁️ AWS Services
 
-```
-| Service | Purpose | Configuration |
-|---------|---------|---------------|
-| **Amazon S3** | Resume storage with versioning | Bucket with versioning enabled, server-side encryption (AES256) |
-| **Amazon DynamoDB** | Metadata storage (resume info, skills) | On-demand billing, GSI on role field |
-| **AWS Lambda** | Serverless compute for business logic | Python 3.11, 512MB-1GB memory, 30-60s timeout |
-| **Amazon API Gateway** | HTTP API endpoint for Telegram webhook | HTTP API with CORS, Lambda proxy integration |
-| **Amazon Bedrock** | AI-powered skill extraction and matching | Claude 3 Haiku model |
-| **AWS IAM** | Security and permissions | Least-privilege policies for Lambda |
-| **CloudWatch Logs** | Logging and monitoring | 7-day retention for Lambda logs |
-```
+| Service                | Purpose                                  | Configuration                                                   |
+| ---------------------- | ---------------------------------------- | --------------------------------------------------------------- |
+| **Amazon S3**          | Resume storage with versioning           | Bucket with versioning enabled, server-side encryption (AES256) |
+| **Amazon DynamoDB**    | Metadata storage (resume info, skills)   | On-demand billing, GSI on role field                            |
+| **AWS Lambda**         | Serverless compute for business logic    | Python 3.11, 512MB-1GB memory, 30-60s timeout                   |
+| **Amazon API Gateway** | HTTP API endpoint for Telegram webhook   | HTTP API with CORS, Lambda proxy integration                    |
+| **Amazon Bedrock**     | AI-powered skill extraction and matching | Claude 3 Haiku model                                            |
+| **AWS IAM**            | Security and permissions                 | Least-privilege policies for Lambda                             |
+| **CloudWatch Logs**    | Logging and monitoring                   | 7-day retention for Lambda logs                                 |
 
 ---
 
