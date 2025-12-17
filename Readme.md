@@ -1,4 +1,4 @@
-# 🤖 AI-Powered Resume Matcher
+# 🤖 TalentMatch-AI : AI-Powered Resume Matcher
 
 A serverless, AI-driven resume matching system built on AWS that intelligently matches resumes with job descriptions using Amazon Bedrock and delivers results via Telegram bot.
 
