@@ -986,10 +986,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Project Maintainer:** Ameer Shaik
 
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: ameersk1401@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-
 ---
 
 ## 🙏 Acknowledgments
@@ -999,17 +995,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Terraform** - For infrastructure as code capabilities
 - **Telegram** - For bot API and platform
 - **PyPDF2** - For PDF text extraction
-
----
-
-## 📊 Project Statistics
-
-- **Total AWS Services Used:** 7
-- **Lines of Terraform:** ~800
-- **Python Code:** ~600 lines
-- **Deployment Time:** ~3 minutes
-- **Monthly Cost:** ~$0.54
-- **AI Models Used:** 1 (Claude 3 Haiku)
 
 ---
 
